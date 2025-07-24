@@ -1,3 +1,8 @@
-export default {
-  base:"/playnet-interactive"
-}
+import { defineConfig } from 'vite'
+
+export default defineConfig({
+  base: '/playnet-interactive/',
+  build: {
+    outDir: 'dist'
+  }
+})

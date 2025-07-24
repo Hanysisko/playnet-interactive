@@ -11,8 +11,8 @@ export default class GameScene extends Phaser.Scene {
   }
 
   preload() {
-    this.load.audio('pop', 'public/pop.mp3')
-    this.load.audio('miss', 'public/miss.ogg')
+    this.load.audio('pop', './pop.mp3')
+    this.load.audio('miss', './miss.ogg')
   }
 
   create() {
